@@ -21,13 +21,16 @@ h1 {
 
 }
 .col {
-	text-align: center;
+	
 	list-style: none;
 	color: white;
 	background-color: black;
 	font-weight: bold;
-
 }
+.col-container{
+	border-bottom: 2px solid black;
+}
+
 li {
 	display: inline;
 	margin: 50px;
@@ -35,6 +38,25 @@ li {
 .col-one {
 	margin: 300px;
 }
-.col-container {
-	border-bottom: 2px solid black;
+.items-container {
+height: 44px;
+border-bottom: 2px solid black;
+	
+}
+.buttons {
+
+height: 32px;
+}
+a {
+	text-decoration: none;
+}
+.button-container {
+	height: 30px;
+	
+}
+.input-container {
+	text-align: center;
+}
+.description {
+	margin: 10px 210px;
 }
