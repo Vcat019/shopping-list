@@ -1,0 +1,40 @@
+
+body {
+	font-family: 'Oxygen', sans-serif;
+}
+.cart-header {
+	width: 400px;
+	margin: 0 auto;
+}
+img {
+	height: 50px;
+	width: 50px;
+}
+h1 {
+	width: 400px;
+	height: 50px;
+}
+.cart-image {
+	float: left;
+}
+.cart-container {
+
+}
+.col {
+	text-align: center;
+	list-style: none;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+
+}
+li {
+	display: inline;
+	margin: 50px;
+}
+.col-one {
+	margin: 300px;
+}
+.col-container {
+	border-bottom: 2px solid black;
+}
