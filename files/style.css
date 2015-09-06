@@ -36,7 +36,10 @@ li {
 	margin: 50px;
 }
 .col-one {
-	margin: 300px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	margin-right: 298px;
 }
 .items-container {
 height: 44px;
@@ -58,5 +61,14 @@ a {
 	text-align: center;
 }
 .description {
-	margin: 10px 210px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.quantity {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 80px;
+	margin-right: 110px;
 }
