@@ -85,7 +85,57 @@ button {
 }
 button:hover, a:hover{
 	color: black;
-	text-decoration: underline;
 	background-color: gray;
 	cursor: pointer;
+}
+.totals-container {
+	font-weight: bold;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+}
+.subtotal {
+	margin: 10px 430px;
+
+	width: 1000px;
+}
+
+.tax {
+
+	margin: 10px 430px;
+	width: 1000px;
+	
+}
+.column {
+	
+	margin: 10px 5px;
+}
+.subtotal-total {
+	margin: 10px 20px;
+}
+.tax-total {
+	margin: 10px 20px;
+}
+.purchase-price {
+	margin: 10px 402px;
+	width: 1000px;
+}
+.purchase-column {
+	margin: 10px 5px;
+	color: red;
+}
+.purchase-total {
+	margin: 10px 20px;
+
+}
+.checkout {
+	margin: 10px 430px;
+	width: 1000px;
+}
+.checkout-button {
+	margin: 10px 5px;
+}
+.checkout-link {
+	color: white;
+	font-weight: bold;
 }

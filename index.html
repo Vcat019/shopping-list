@@ -31,21 +31,34 @@
 <div class="items-container">
 	<div class="button-container">
 		<div class="buttons">
-				<button class="button-update"><a href="#" class="add">Add</a></button>
-				<button class="button-cancel"><a href="#" class="add">Cancel</a></button>
+				<button type="button" class="button-update"><a href="#" class="add">Add</a></button>
+				<button type="button" class="button-cancel"><a href="#" class="add">Cancel</a></button>
 					<input class="description" size="55" placeholder="Enter item here">
 					$<input class="unit-price" type="number" min="0.00" max="1000.00" value="0">
 					<input class="quantity" type="number" min="1" max="1000" value="1">
 					<input class="layaway" type="checkbox"> Layaway
-				</div>
+			</div>
 			
 		</div>
 	</div>
-		<!--<div class="input-container">
-			<div class="input-items">
-				<input class="description" size="55" placeholder="Enter item here">
-			</div>
-		/div>-->
+		
+</div>
+<div class="totals-container">
+	<div class="subtotal">
+		<span class="subtotal-total">Subtotal:</span>
+		<span class="column">$0.00</span>
+	</div>
+		<div class="tax">
+			<span class="tax-total">Tax:[PA]:</span>
+			<span class="column">$0.00</span>
+		</div>
+		<div class="purchase-price">
+			<span class="purchase-total">Purchase Price:</span>
+			<span class="purchase-column">$0.00</span>
+		</div>
+		<div class="checkout">
+			<button type="button" class="checkout-button"><a href="#" class="checkout-link">Proceed to checkout</a></button>
+		</div>
 </div>
 	</body>
 </html>
