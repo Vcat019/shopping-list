@@ -94,6 +94,7 @@ button:hover, a:hover{
 	font-size: 20px;
 	width: 100%;
 	text-align: center;
+	border-top: 2px solid black;
 }
 .subtotal {
 	margin: 10px 430px;
@@ -139,4 +140,7 @@ button:hover, a:hover{
 .checkout-link {
 	color: white;
 	font-weight: bold;
+}
+.add-list {
+	
 }
