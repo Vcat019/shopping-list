@@ -23,9 +23,9 @@
 <div class="col-container">
 		<ul class="col">
 			<li class="col-one">Item Description</li>
-			<li>Unit Price</li>
-			<li>Quantity</li>
-			<li>Total</li>
+			<li class="col-two">Unit Price</li>
+			<li class="col-two">Quantity</li>
+			<li class="col-two">Total</li>
 		</ul>	
 </div>
 <div class="items-container">
@@ -33,17 +33,18 @@
 		<div class="buttons">
 				<button type="button" class="button-update"><a href="#" class="add">Add</a></button>
 				<button type="button" class="button-cancel"><a href="#" class="add">Cancel</a></button>
-					<input class="description" size="55" placeholder="Enter item here">
+					<input class="description" size="55" placeholder="Enter item here" type="text" value="">
 					$<input class="unit-price" type="number" min="0.00" max="1000.00" value="0">
 					<input class="quantity" type="number" min="1" max="1000" value="1">
 					<input class="layaway" type="checkbox"> Layaway
-			</div>
+			
 			
 		</div>
 	</div>
 		
 </div>
-<ul class="add-list"></ul><!--<div id="error">Enter what you're shopping for</div>-->
+<div id="error" style="display: none">Enter what you're shopping for</div>
+<ul class="add-list"></ul>
 <div class="totals-container">
 	<div class="subtotal">
 		<span class="subtotal-total">Subtotal:</span>

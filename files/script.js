@@ -1,12 +1,11 @@
 $(document).ready(function() {
 	$('.button-update').click(function() {
-		if ( $('input.unit-price').val().trim().length === 0) {
-			//alert("put something here");
+		if ( $('input.description').val().trim().length == 0) {
+			//alert("#error");
 			$('#error').show();
-			$('input.unit-price').val();
-			$('.add-list').hide();
+			$('input.description').val("");
 		} else {
-			$('ul.add-list').append('<li>' + $('input.description').val() + '</li');
+			$('ul.add-list').append('<li class="description-list">' + $('input.description').val() + '</li>');
 			$('input.description').val("");
 			$('#error').hide();
 	}	});
