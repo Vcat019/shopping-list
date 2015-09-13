@@ -5,8 +5,16 @@ $(document).ready(function() {
 			$('#error').show();
 			$('input.description').val("");
 		} else {
-			$('ul.add-list').append('<li class="description-list">' + $('input.description').val() + '</li>');
+			$('ul.add-list').append('<li class="description-list"><button class="item">done</button>' + $('input.description').val() + '</li>');
 			$('input.description').val("");
 			$('#error').hide();
-	}	});
+	};
+});
+	$('ul').on('click', '.item', function(event) {
+		$(this).closest('li').toggleClass('description-list done');
+		$(this).remove();
+		
+	});
+
+
 });

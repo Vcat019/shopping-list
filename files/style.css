@@ -143,12 +143,34 @@ button:hover, a:hover{
 }
 .description-list {
 	margin-left: 100px;
+	font-size: 20px;
 }
 .add-list {
 	list-style: none;
+
 }
 #error {
 	display: none;
 	margin-left: 125px;
 	color: red;
+}
+.done {
+	text-decoration: line-through;
+	margin-left: 141px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+.item {
+	font-size: 10px;
+	text-transform: uppercase;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 3px;
+	text-decoration: none;
+	padding: 3px;
+	margin-right: 5px;
+	font-weight: bolder;
+	text-decoration: none;
+	color:white;
+
 }
