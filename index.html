@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Vcat's Shopping Cart</title>
+	<title>Vcat's Shopping List</title>
 	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="files/style.css">
 	<link rel="stylesheet" href="files/normalize.css">
@@ -12,10 +12,10 @@
 <body>
 <div class="cart-container">
 	<div class="cart-image">
-		<img src="images/shopping-cart-.svg" alt="shopping cart">
+		<img src="images/note-pad-logo.png" alt="shopping cart">
 	</div>
 		<div class="cart-header">
-			<h1>Vcat's Shopping Cart</h1>
+			<h1>Vcat's Shopping List</h1>
 		</div>
 		
 
@@ -23,20 +23,14 @@
 <div class="col-container">
 		<ul class="col">
 			<li class="col-one">Item Description</li>
-			<li class="col-two">Unit Price</li>
-			<li class="col-two">Quantity</li>
-			<li class="col-two">Total</li>
 		</ul>	
 </div>
 <div class="items-container">
 	<div class="button-container">
 		<div class="buttons">
-				<button type="button" class="button-update"><a href="#" class="add">Add</a></button>
-				<button type="button" class="button-cancel"><a href="#" class="add">Cancel</a></button>
-					<input class="description" size="55" placeholder="Enter item here" type="text" value="">
-					$<input class="unit-price" type="number" min="0.00" max="1000.00" value="0">
-					<input class="quantity" type="number" min="1" max="1000" value="1">
-					<input class="layaway" type="checkbox"> Layaway
+				<button type="button" class="button-update"><a href="#" class="add">Add to my list</a></button>
+					<input class="description" size="55" placeholder="Enter item here" type="text" value="" >
+
 			
 			
 		</div>
@@ -44,26 +38,11 @@
 		
 </div>
 <div id="error" style="display: none">Enter what you're shopping for.</div>
-<ul class="add-list">
+<div class="ul-container">
+	<ul class="add-list">
 	<li class="done">Copenhagen Wintergreen Longcut</li>
 	<li class="description-list"><button class="item">done</button>Grizzly Wintergreen Longcut</li>
 </ul>
-<div class="totals-container">
-	<div class="subtotal">
-		<span class="subtotal-total">Subtotal:</span>
-		<span class="column">$0.00</span>
-	</div>
-		<div class="tax">
-			<span class="tax-total">Tax:[PA]:</span>
-			<span class="column">$0.00</span>
-		</div>
-		<div class="purchase-price">
-			<span class="purchase-total">Purchase Price:</span>
-			<span class="purchase-column">$0.00</span>
-		</div>
-		<div class="checkout">
-			<button type="button" class="checkout-button"><a href="#" class="checkout-link">Proceed to checkout</a></button>
-		</div>
 </div>
-	</body>
+</body>
 </html>
