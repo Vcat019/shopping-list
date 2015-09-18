@@ -1,6 +1,7 @@
 
 body {
 	font-family: 'Oxygen', sans-serif;
+	background-color: lightgray;
 
 }
 .cart-header {
@@ -19,6 +20,7 @@ h1 {
 	float: left;
 }
 .cart-container {
+	background-color: lightgray;
 
 }
 .col {
